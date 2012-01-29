@@ -18,7 +18,7 @@
     (all credits go there of course : I just built the Joomla Librairie Package)    </small>
     <h3>Usage</h3>
     <p>
-    	jimport('querypath.querypath'); <br />    	
+    	jimport('querypath.QueryPath'); <br />    	
     	$qp = qp(QueryPath::HTML_STUB); <span style="color:grey">// Generate a new QueryPath object. </span> <br />
 		$body = $qp->find('body'); <span style="color:grey">// Find the body tag.</span> 
     </p>  

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="library" method="upgrade" version="1.7.0">
+    <name>QueryPath for Joomla</name>
+    <libraryname>querypath</libraryname>
+    <author>Giboo</author>
+    <creationDate>January 2012</creationDate>
+    <copyright>Copyright Giboo (C) 2012</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <authorEmail>joomla@giboo.fr</authorEmail>
+    <authorUrl>www.giboo.fr</authorUrl>
+    <version>1.0</version>
+    <description>
+<![CDATA[
+    <h1>QueryPath for Joomla</h1>
+    You are familiar to DOM inspection with JQuery (or Mootools) ?<br />
+    You can do the same in PHP, using QueryPath in your components and modules !<br />
+    For more information, take a look at <a href="http://querypath.org">querypath.org</a>. <small>
+    (all credits go there of course : I just built the Joomla Librairie Package)    </small>
+    <h3>Usage</h3>
+    <p>
+    	jimport('querypath.querypath'); <br />    	
+    	$qp = qp(QueryPath::HTML_STUB); <span style="color:grey">// Generate a new QueryPath object. </span> <br />
+		$body = $qp->find('body'); <span style="color:grey">// Find the body tag.</span> 
+    </p>  
+    More tutorial Here : <a href="https://fedorahosted.org/querypath/wiki/QueryPathTutorial">https://fedorahosted.org/querypath/wiki/QueryPathTutorial</a>  
+]]>
+    </description>    
+    <files>		
+		<filename>index.html</filename>		
+		<filename>QueryPath.php</filename>
+		<filename>QueryPathExtension.php</filename>
+		<filename>CssParser.php</filename>
+		<filename>CssEventHandler.php</filename>
+		<filename>querypath.xml</filename>		
+		<folder>Extension</folder>
+		<folder>Licences</folder>
+	</files>    
+</extension>
